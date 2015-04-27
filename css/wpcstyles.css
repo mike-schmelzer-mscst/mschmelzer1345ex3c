@@ -254,6 +254,9 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 }
 
 /*carousel styles*/
+.carousel {
+    margin-bottom: 15px;
+}
 .carousel-inner > .item >img,
 .carousel-inner > .item > a > img {
     width: 100%;
