@@ -57,17 +57,6 @@
                 <li><a href="messages.htm">Messages</a></li>
 <!--                <li><a href="about.htm">About Us</a></li>-->
                 <li class="active"><a href="contact.htm">Contact</a></li>
-<!--                <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Ministries <span class="caret"></span></a>
-                  <ul class="dropdown-menu" role="menu">
-                    <li><a href="comcon.htm">ComCon</a></li>
-                    <li><a href="missions.htm">Missions</a></li>
-                    <li><a href="teaching.htm">Teaching</a></li>
-                    <li><a href="men.htm">Men</a></li>
-                    <li><a href="women.htm">Women</a></li>
-                    <li><a href="children.htm">Children</a></li>
-                  </ul>
-                </li>-->
               </ul>
             </div>
           </div>
@@ -75,16 +64,12 @@
       </div>
     </div>
      
-<!--      <header class="container-fluid" style="background-color: #c79340;">
-          <img class="auto-style1 img-responsive" style="margin: 0 auto 0 auto;" alt="Welcome to Winona Pentecostal Church"  src="images/wpc-new.jpg" />
+    <header class="container">
+    <figure>
+        <img class="img-responsive mainlogo" src="images/Winona-Final-Logo.png" />
+    </figure>
+    </header>
 
-      </header>-->
-
-      <header class="container">
-        <figure>
-            <img class="img-responsive mainlogo" src="images/Winona-Final-Logo.png" />
-        </figure>
-      </header>
      <!--Page heading
     ================================================== -->
     <div class="container page-top-round">
@@ -94,10 +79,8 @@
         </div>
         </div>
     
-
     <!--Two Column
     ================================================== -->
-
  <!--  <div class="container">-->
       <div class="row container-height">
         <div class="col-sm-4 contact">
@@ -105,7 +88,31 @@
             <p>901 West 5th Street</p>
             <p>Winona MN 55987</p>
             <p>(507) 452-0522 (Church Office)</p>
-            <a href="directions.htm"><img src="images/view-map.jpg" /></a>
+            <!--<a href="directions.htm"><img src="images/view-map.jpg" /></a>-->
+
+            <!--Trigger the modal with a button-->
+            <button type="button" class="btn btn-info btn-lg" style="margin: 15px 0 15px 0; background-color: #884502;" data-toggle="modal" data-target="#myModal">Directions</button>
+
+            <!-- Modal -->
+            <div id="myModal" class="modal fade" role="dialog">
+              <div class="modal-dialog">
+
+                <!-- Modal content-->
+                <div class="modal-content modal-lg">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Directions to WPC</h4>
+                  </div>
+                  <div class="modal-body">
+                      <img src="images/directions.jpg" />
+                   </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+
+              </div>
+            </div>
             <h4>Mailing Address</h4>
             <p>Winona Pentecostal Church</p>            
             <p>P.O. Box 1406</p>            
