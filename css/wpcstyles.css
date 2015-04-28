@@ -5,7 +5,7 @@ body {
     background-attachment: fixed;
 }
 .mainlogo {
-     width: 35%;
+     width: 30%;
      float: left; 
      margin-bottom: 15px;
 }
@@ -44,9 +44,10 @@ h1 {
      background-color: #663300; 
      color: #F2DDAE; 
      padding: 10px 0 10px 15px; 
+     text-shadow: 2px 2px #444;
      margin-left: 0px;
 }
-/* h1 gradient for page headings */
+/* h1 background gradient for page headings */
 .heading {
 	font-family: Arial;
 	font-size: 2em;
@@ -86,6 +87,26 @@ h1 {
 	-moz-border-top-right-radius: 1.5em;
     border-top-right-radius: 1.5em;
 
+  	-webkit-border-bottom-left-radius: 1.5em;
+	-moz-border-bottom-left-radius: 1.5em;
+    border-bottom-left-radius: 1.5em;
+  	-webkit-border-bottom-right-radius: 1.5em;
+	-moz-border-bottom-right-radius: 1.5em;
+    border-bottom-right-radius: 1.5em;
+}
+.inner-page-round {
+    border: 5px solid #51351F; 
+    width: 100%; 
+    margin-bottom: 15px; 
+    -webkit-border-top-right-radius: 1.5em; 
+    -moz-border-top-right-radius: 1.5em; 
+    border-top-right-radius: 1.5em; 
+    -webkit-border-bottom-right-radius: 1.5em; 
+    -moz-border-bottom-right-radius: 1.5em; 
+    border-bottom-right-radius: 1.5em; 
+    -webkit-border-bottom-left-radius: 1.5em;
+    -moz-border-bottom-left-radius: 1.5em;
+    border-bottom-left-radius: 1.5em;
 }
 h3 {
     color: #663300;
@@ -287,7 +308,6 @@ aside img {
     /*margin: 0 auto 0 auto;*/
     margin-bottom: 20px;
 }
-
 .donate img {
     float: none; 
     display: block; 
@@ -319,7 +339,7 @@ footer {
 }
 /* ---------------- Nav Tabs --------------------- */
 .nav-tabs {
-  border-bottom: 1px solid #51351F;
+  /*border-bottom: 1px solid #51351F;*/
 }
 .nav-tabs > li {
   float: left;
@@ -342,7 +362,7 @@ footer {
 }
 .nav-tabs > li > a:hover {
     background-color: #DDA75A;-color: 
-   D79E #F0D79E #F0D75A;*/
+   D79E #F0D79E #F0D75A;
 }
 /*-------------- A--- ACTIVE MODIFIED-------------------*/
 .nav-tabs > li.active > a,
@@ -352,39 +372,6 @@ footer {
   cursor: default;
   background-color: #884502;
   border: 1px solid #F0D79E;
-  border-bottom-color: tra1px solid #ddd;
   border-bottom-color: transparent;
 }
-.nav-tabs.nav-justified {
-  width: 100%;
-  border-bottom: 0;
-}
-.nav-tabs.nav-justified > li {
-  float: none;
-}
-.nav-tabs.nav-justified > li > a {
-  margin-bottom: 5px;
-  text-align: center;
-}
-.nav-tabs.nav-justified > .dropdown .dropdown-menu {
-  top: auto;
-  left: auto;
-}
-@media (min-width: 768px) {
-  .nav-tabs.nav-justified > li {
-    display: table-cell;
-    width: 1%;
-  }
-  .nav-tabs.nav-justified > li > a {
-    margin-bottom: 0;
-  }
-}
-.nav-tabs.nav-justified > li > a {
-  margin-right: 0;
-  border-radius: 4px;
-}
-.nav-tabs.nav-justified > .active > a,
-.nav-tabs.nav-justified > .active > a:hover,
-.nav-tabs.nav-justified > .active > a:focus {
-  border: 1px solid #ddd;
-}
+
